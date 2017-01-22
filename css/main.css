@@ -1,0 +1,261 @@
+body{background: #f3f3f3;
+	font-family: 'lato', sans-serif;
+}
+h1, h2, h3, h4,h5, h6{margin:0;
+}
+
+.btn-back{
+	text-decoration: none;
+	color:#2ebd59;
+}
+
+.btn-back:hover{
+	text-decoration: none;
+	color:purple;
+}
+
+.menu a{
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 18px;
+ 	font-weight: 500;
+	color: white; margin: 0 41px;	
+}
+.menu{
+	display: inline-block;
+	float: right;
+	margin-right: 50px;
+}
+
+.logo {
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	color: white;
+	display:inline-block;
+	margin-top:20px;
+	margin-left: 50px;
+}
+
+ nav{ 
+ 	margin-top: 0;
+ }
+.our-container{margin: 0 auto; text-align: center;}
+	.herohomepage{
+		/*background:  url(../images/shoe-index2.jpg) no-repeat center;*/
+		background: linear-gradient(rgba(0,0,0,0.30),rgba(0,0,0,0.30)), url(../images/shoe-index2-min.jpg) no-repeat center / cover;
+		width:100%;
+		height:510px;
+}
+
+#main_caption{padding-top: 150px;
+	 font-size: 48px;
+	 font-weight: 700; 
+	 text-shadow: 2px 2px 2px rgba(0,0,0,0.35); 
+	 color: white;
+}
+
+.productdescription{
+	margin-top:10px;
+	font-weight:700;
+	text-align:left;
+}
+
+.main{background-color:#f3f3f3;}
+.shp-btn{
+	font:normal 400 18px/24px "Lato" ,sans-serif;
+	text-decoration: none;
+	color: #2ebd59;
+	display: inline-block;
+	margin-top: 29px;
+	background: white;
+	border-radius: 35px;
+	padding: 5px 0;
+	width: 150px;
+}
+.container{margin: 0 auto; text-align: center;}
+	.heroproducts{
+		background: linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)), url(../images/shoe-index2.jpg) no-repeat center;
+		background-size: cover;
+		width: 100%;
+		height: 400px;
+}
+
+#sub_caption{font-size: 24px;
+	margin-top:25px;
+	font-weight: 400;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.35); 
+	color: white;
+}
+.container{margin: 0 auto; text-align: center;}
+	.contact{
+		background: url(../images/shoe-contact.jpg) no-repeat center / cover;
+		width:100%;
+		min-height:300px;
+}
+
+
+.col{width: 33%; height: auto;
+	float: left;
+	border-right: solid;
+}
+h1{text-align: center;
+}
+
+
+.productimage{
+	max-height: 370px;
+	max-width:290px;
+	width:100%;
+	/*margin: 20px;*/
+	background-color: white;
+}
+.cardimage{
+	border-radius:5px;
+	max-height: 520px;
+	background-color: white;
+	padding: 20px;
+	margin: 20px 0;
+}
+
+.producttitle{text-decoration: none;
+	font-family: 'Lato', sans-serif; 
+	color: #2ebd59;;
+	text-align: center;
+	margin-top:24px;
+}
+
+.button{
+	font:normal 500 24px/30px "Lato" ,sans-serif;
+	text-decoration: none;
+	color: white;
+	display: block;
+	margin-top: 30px auto 0;
+	background: transparent;
+	border: solid 1px white;
+	border-radius: 35px;
+	padding: 10px 0;
+	width: 150px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.product-wrap{
+	float:left;
+	padding:10px;
+}
+
+.productgrid{width:100%;
+	margin:0 auto;
+}
+.shop-item{background:white;
+	width:100%;
+}
+
+.form-title{
+	margin-bottom:20px;
+	color:black;
+	text-align: left;
+}
+.footer-styles{
+	padding:60px;
+}
+.contact-form{
+	margin:25px;
+	padding:20px;
+
+}
+.section-title{
+	padding:30px 0;
+	font-size:48px;
+	font-weight:700;
+	color:#333;
+}
+.shp-btn:hover {
+	text-decoration: none;
+
+}
+
+footer{
+	background: #333;
+	height: auto;
+	padding-top: 20px
+}
+.footer{color: white;
+}
+.shoe-category{
+	color: white;
+}
+
+.shoe-category:hover {
+	color: pink;
+}
+.quick-links{
+	padding:0;
+	list-style-type: none;
+	text-align: center;
+	color: white;
+}
+.footer{text-align: center;}
+.shoe-category{text-align: center;}
+#company-info{ text-align: left;
+}
+
+.price{
+	font:normal 500 24px/30px "Lato" ,sans-serif;
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	margin-top: 29px;
+	background: transparent;
+	border: solid 1px black;
+	border-radius: 35px;
+	padding: 10px 0;
+	width: 150px;
+}
+.tagline-1{
+	height:90px;
+	background:#f7f7f7;
+}
+.tagline-2{
+	background:#f3f3f3;
+	padding-bottom:30px;
+}
+.navbar-inverse{
+	background-color:#2e2f33;
+}
+.navbar-inverse .navbar-brand{
+	color:white;
+}
+.navbar {
+	margin-bottom: 0;
+}
+.dropdown-menu{
+	background-color:#2e2f33 ;
+
+}
+
+.dropdown-menu>li>a{
+	color:white;
+}
+@media (min-width: 768px){
+.navbar {
+    border-radius: 0;
+}}
+
+.navbar-brand{
+	color:white;
+	font-family: 'Lato', sans-serif;
+	font-size:24px;
+	font-weight:400;
+}
+.sub-footer{
+	color: white;
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	background: #333;
+	margin: 0;
+	font-size: 18px;
+}
